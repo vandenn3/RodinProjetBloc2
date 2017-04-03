@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scMachineFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd;de.prob.units.mchBase">
+<org.eventb.core.scSeesContext name="'" org.eventb.core.scTarget="/AbonnementMetro/MetroContext.bcc" org.eventb.core.source="/AbonnementMetro/MetroMachine1.bum|org.eventb.core.machineFile#MetroMachine1|org.eventb.core.seesContext#("/>
+<org.eventb.core.scInternalContext name="MetroContext"/>
+<org.eventb.core.scInvariant name="MetroContexu" org.eventb.core.label="metro_present∈Statuts" org.eventb.core.predicate="⊤" org.eventb.core.source="/AbonnementMetro/MetroMachine1.bum|org.eventb.core.machineFile#MetroMachine1|org.eventb.core.invariant#." org.eventb.core.theorem="false"/>
+<org.eventb.core.scEvent name="MetroContexv" org.eventb.core.accurate="true" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION" org.eventb.core.source="/AbonnementMetro/MetroMachine1.bum|org.eventb.core.machineFile#MetroMachine1|org.eventb.core.event#'"/>
+<org.eventb.core.scEvent name="MetroContexw" org.eventb.core.accurate="true" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="monter_metro" org.eventb.core.source="/AbonnementMetro/MetroMachine1.bum|org.eventb.core.machineFile#MetroMachine1|org.eventb.core.event#*"/>
+<org.eventb.core.scEvent name="MetroContexx" org.eventb.core.accurate="true" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="sortir_metro" org.eventb.core.source="/AbonnementMetro/MetroMachine1.bum|org.eventb.core.machineFile#MetroMachine1|org.eventb.core.event#+"/>
+<org.eventb.core.scEvent name="MetroContexy" org.eventb.core.accurate="true" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="metro_arrive" org.eventb.core.source="/AbonnementMetro/MetroMachine1.bum|org.eventb.core.machineFile#MetroMachine1|org.eventb.core.event#,"/>
+<org.eventb.core.scEvent name="MetroContexz" org.eventb.core.accurate="true" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="metro_part" org.eventb.core.source="/AbonnementMetro/MetroMachine1.bum|org.eventb.core.machineFile#MetroMachine1|org.eventb.core.event#-"/>
+</org.eventb.core.scMachineFile>

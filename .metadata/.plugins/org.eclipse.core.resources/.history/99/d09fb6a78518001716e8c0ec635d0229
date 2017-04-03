@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scMachineFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd;de.prob.units.mchBase">
+<org.eventb.core.scSeesContext name="'" org.eventb.core.scTarget="/AbonnementMetro/MetroContext.bcc" org.eventb.core.source="/AbonnementMetro/MetroMachine1.bum|org.eventb.core.machineFile#MetroMachine1|org.eventb.core.seesContext#("/>
+<org.eventb.core.scInternalContext name="MetroContext">
+<org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1" org.eventb.core.predicate="partition(Statuts,{oui},{non})" org.eventb.core.source="/AbonnementMetro/MetroContext.buc|org.eventb.core.contextFile#MetroContext|org.eventb.core.axiom#)" org.eventb.core.theorem="false"/>
+<org.eventb.core.scCarrierSet name="Statuts" org.eventb.core.source="/AbonnementMetro/MetroContext.buc|org.eventb.core.contextFile#MetroContext|org.eventb.core.carrierSet#*" org.eventb.core.type="ℙ(Statuts)"/>
+<org.eventb.core.scConstant de.prob.symbolic.symbolicAttribute="false" de.prob.units.unitPragmaAttribute="" name="non" org.eventb.core.source="/AbonnementMetro/MetroContext.buc|org.eventb.core.contextFile#MetroContext|org.eventb.core.constant#(" org.eventb.core.type="Statuts"/>
+<org.eventb.core.scConstant de.prob.symbolic.symbolicAttribute="false" de.prob.units.unitPragmaAttribute="" name="oui" org.eventb.core.source="/AbonnementMetro/MetroContext.buc|org.eventb.core.contextFile#MetroContext|org.eventb.core.constant#'" org.eventb.core.type="Statuts"/>
+</org.eventb.core.scInternalContext>
+<org.eventb.core.scInvariant name="MetroContexu" org.eventb.core.label="inv1" org.eventb.core.predicate="metro_present∈Statuts" org.eventb.core.source="/AbonnementMetro/MetroMachine1.bum|org.eventb.core.machineFile#MetroMachine1|org.eventb.core.invariant#." org.eventb.core.theorem="false"/>
+<org.eventb.core.scVariable de.prob.units.unitPragmaAttribute="" name="metro_present" org.eventb.core.abstract="false" org.eventb.core.concrete="true" org.eventb.core.source="/AbonnementMetro/MetroMachine1.bum|org.eventb.core.machineFile#MetroMachine1|org.eventb.core.variable#)" org.eventb.core.type="Statuts"/>
+<org.eventb.core.scEvent name="metro_presenu" org.eventb.core.accurate="true" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="INITIALISATION" org.eventb.core.source="/AbonnementMetro/MetroMachine1.bum|org.eventb.core.machineFile#MetroMachine1|org.eventb.core.event#'">
+<org.eventb.core.scAction name="'" org.eventb.core.assignment="metro_present ≔ non" org.eventb.core.label="act1" org.eventb.core.source="/AbonnementMetro/MetroMachine1.bum|org.eventb.core.machineFile#MetroMachine1|org.eventb.core.event#'|org.eventb.core.action#'"/>
+</org.eventb.core.scEvent>
+<org.eventb.core.scEvent name="metro_presenv" org.eventb.core.accurate="true" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="monter_metro" org.eventb.core.source="/AbonnementMetro/MetroMachine1.bum|org.eventb.core.machineFile#MetroMachine1|org.eventb.core.event#*">
+<org.eventb.core.scGuard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="metro_present=oui" org.eventb.core.source="/AbonnementMetro/MetroMachine1.bum|org.eventb.core.machineFile#MetroMachine1|org.eventb.core.event#*|org.eventb.core.guard#'" org.eventb.core.theorem="false"/>
+</org.eventb.core.scEvent>
+<org.eventb.core.scEvent name="metro_presenw" org.eventb.core.accurate="true" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="sortir_metro" org.eventb.core.source="/AbonnementMetro/MetroMachine1.bum|org.eventb.core.machineFile#MetroMachine1|org.eventb.core.event#+">
+<org.eventb.core.scGuard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="metro_present=oui" org.eventb.core.source="/AbonnementMetro/MetroMachine1.bum|org.eventb.core.machineFile#MetroMachine1|org.eventb.core.event#+|org.eventb.core.guard#'" org.eventb.core.theorem="false"/>
+</org.eventb.core.scEvent>
+<org.eventb.core.scEvent name="metro_presenx" org.eventb.core.accurate="true" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="metro_arrive" org.eventb.core.source="/AbonnementMetro/MetroMachine1.bum|org.eventb.core.machineFile#MetroMachine1|org.eventb.core.event#,">
+<org.eventb.core.scGuard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="metro_present=non" org.eventb.core.source="/AbonnementMetro/MetroMachine1.bum|org.eventb.core.machineFile#MetroMachine1|org.eventb.core.event#,|org.eventb.core.guard#'" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAction name="(" org.eventb.core.assignment="metro_present ≔ oui" org.eventb.core.label="act1" org.eventb.core.source="/AbonnementMetro/MetroMachine1.bum|org.eventb.core.machineFile#MetroMachine1|org.eventb.core.event#,|org.eventb.core.action#("/>
+</org.eventb.core.scEvent>
+<org.eventb.core.scEvent name="metro_preseny" org.eventb.core.accurate="false" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="metro_part" org.eventb.core.source="/AbonnementMetro/MetroMachine1.bum|org.eventb.core.machineFile#MetroMachine1|org.eventb.core.event#-">
+<org.eventb.core.scGuard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="metro_present=oui" org.eventb.core.source="/AbonnementMetro/MetroMachine1.bum|org.eventb.core.machineFile#MetroMachine1|org.eventb.core.event#-|org.eventb.core.guard#'" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAction name="(" org.eventb.core.assignment="metro_present ≔ non" org.eventb.core.label="act1" org.eventb.core.source="/AbonnementMetro/MetroMachine1.bum|org.eventb.core.machineFile#MetroMachine1|org.eventb.core.event#-|org.eventb.core.action#("/>
+</org.eventb.core.scEvent>
+</org.eventb.core.scMachineFile>

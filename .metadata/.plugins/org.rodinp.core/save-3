@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<index_root>
+<pim project="/AbonnementMetro">
+<rodin_index>
+<descriptor element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.variable#)" name="metro_present">
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#-|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="0"/>
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#,|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="0"/>
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="0"/>
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#+|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="0"/>
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#,|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="0"/>
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.variable#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#-|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="0"/>
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="0"/>
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#*|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#'" name="INITIALISATION">
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#-" name="metro_part">
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#+" name="sortir_metro">
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.variable#1" name="nb_personnes_quai">
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#+|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="37" loc_char_start="20"/>
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#*|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="37" loc_char_start="20"/>
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#+|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="0"/>
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#*|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="0"/>
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#\/|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="37" loc_char_start="20"/>
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.variable#1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#\/|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="0"/>
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#0|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="0"/>
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#0|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="37" loc_char_start="20"/>
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#'|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="0"/>
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.invariant#2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#\/" name="monter_quai">
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#\/" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0" name="MetroMachine0">
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#,|org.eventb.core.parameter#)" name="contenance">
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#,|org.eventb.core.parameter#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#,|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="31" loc_char_start="21"/>
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#,|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.variable#3" name="nb_personnes_metro">
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.invariant#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="0"/>
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#'|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="18" loc_char_start="0"/>
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.variable#3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#*|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="18" loc_char_start="0"/>
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#*|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="39" loc_char_start="21"/>
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#,|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="18" loc_char_start="0"/>
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#+|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="18" loc_char_start="0"/>
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#+|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="39" loc_char_start="21"/>
+</descriptor>
+<descriptor element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#*" name="monter_metro">
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/AbonnementMetro/MetroContext.buc|org.eventb.core.contextFile#MetroContext" name="MetroContext">
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.seesContext#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/AbonnementMetro/MetroContext.buc|org.eventb.core.contextFile#MetroContext" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#," name="metro_arrive">
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#0" name="sortir_quai">
+<occurrence element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#0" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+</rodin_index>
+<export_table>
+<export file="/AbonnementMetro/MetroContext.buc">
+<exported element="/AbonnementMetro/MetroContext.buc|org.eventb.core.contextFile#MetroContext" name="MetroContext"/>
+</export>
+<export file="/AbonnementMetro/MetroMachine0.bum">
+<exported element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0" name="MetroMachine0"/>
+<exported element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#-" name="metro_part"/>
+<exported element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#0" name="sortir_quai"/>
+<exported element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#*" name="monter_metro"/>
+<exported element="/AbonnementMetro/MetroContext.buc|org.eventb.core.contextFile#MetroContext" name="MetroContext"/>
+<exported element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#\/" name="monter_quai"/>
+<exported element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#," name="metro_arrive"/>
+<exported element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.variable#)" name="metro_present"/>
+<exported element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.variable#1" name="nb_personnes_quai"/>
+<exported element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#+" name="sortir_metro"/>
+<exported element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#,|org.eventb.core.parameter#)" name="contenance"/>
+<exported element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.variable#3" name="nb_personnes_metro"/>
+<exported element="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#'" name="INITIALISATION"/>
+</export>
+</export_table>
+<graph is_sorted="true">
+<node label="/AbonnementMetro/MetroContext.buc" mark="false" order_pos="0"/>
+<node label="/AbonnementMetro/MetroMachine0.bum" mark="false" order_pos="1">
+<predecessor label="/AbonnementMetro/MetroContext.buc"/>
+</node>
+</graph>
+<unprocessed file="/AbonnementMetro/MetroContext.bcc"/>
+<unprocessed file="/AbonnementMetro/MetroContext.bpo"/>
+<unprocessed file="/AbonnementMetro/MetroContext.bpr"/>
+<unprocessed file="/AbonnementMetro/MetroContext.bps"/>
+<unprocessed file="/AbonnementMetro/MetroMachine1.bcm"/>
+<unprocessed file="/AbonnementMetro/MetroMachine1.bpo"/>
+<unprocessed file="/AbonnementMetro/MetroMachine1.bpr"/>
+<unprocessed file="/AbonnementMetro/MetroMachine1.bps"/>
+<unprocessed file="/AbonnementMetro/MetroMachine1.bcm_tmp"/>
+<unprocessed file="/AbonnementMetro/MetroContext.bcc_tmp"/>
+<unprocessed file="/AbonnementMetro/MetroMachine0.bpr"/>
+<unprocessed file="/AbonnementMetro/MetroMachine0.bcm"/>
+<unprocessed file="/AbonnementMetro/MetroMachine0.bpo"/>
+<unprocessed file="/AbonnementMetro/MetroMachine0.bps"/>
+</pim>
+<delta_list/>
+<indexer_registry>
+<registry_entry element_type="org.eventb.core.machineFile">
+<indexer id="machineIndexer"/>
+</registry_entry>
+<registry_entry element_type="org.eventb.core.contextFile">
+<indexer id="contextIndexer"/>
+</registry_entry>
+</indexer_registry>
+</index_root>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase;de.prob.units.mchBase">
+<org.eventb.core.scAxiom name="'" org.eventb.core.label="partition(Statuts,{oui},{non})" org.eventb.core.predicate="⊤" org.eventb.core.source="/AbonnementMetro/MetroContext.buc|org.eventb.core.contextFile#MetroContext|org.eventb.core.axiom#)" org.eventb.core.theorem="false"/>
+</org.eventb.core.scContextFile>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="4">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="1"/>
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/AbonnementMetro/MetroMachine0.bpo|org.eventb.core.poFile#MetroMachine0|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="4">
+<org.eventb.core.poIdentifier name="metro_present" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="nb_personnes_quai" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="INITIALISATION/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="4">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/AbonnementMetro/MetroMachine0.bpo|org.eventb.core.poFile#MetroMachine0|org.eventb.core.poPredicateSet#EVTALLHYPnb_personnes_quaj"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0∈ℕ" org.eventb.core.source="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.invariant#2"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#'"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.invariant#2"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/AbonnementMetro/MetroMachine0.bpo|org.eventb.core.poFile#MetroMachine0|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/AbonnementMetro/MetroMachine0.bpo|org.eventb.core.poFile#MetroMachine0|org.eventb.core.poSequent#INITIALISATION\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/AbonnementMetro/MetroMachine0.bpo|org.eventb.core.poFile#MetroMachine0|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD1"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTnb_personnes_quaj" org.eventb.core.parentSet="/AbonnementMetro/MetroMachine0.bpo|org.eventb.core.poFile#MetroMachine0|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="metro_present'" org.eventb.core.type="BOOL"/>
+<org.eventb.core.poIdentifier name="nb_personnes_quai'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPnb_personnes_quaj" org.eventb.core.parentSet="/AbonnementMetro/MetroMachine0.bpo|org.eventb.core.poFile#MetroMachine0|org.eventb.core.poPredicateSet#EVTIDENTnb_personnes_quaj" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poPredicateSet name="EVTALLHYPnb_personnes_quak" org.eventb.core.parentSet="/AbonnementMetro/MetroMachine0.bpo|org.eventb.core.poFile#MetroMachine0|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="metro_present=TRUE" org.eventb.core.source="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#*|org.eventb.core.guard#'"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPnb_personnes_qual" org.eventb.core.parentSet="/AbonnementMetro/MetroMachine0.bpo|org.eventb.core.poFile#MetroMachine0|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poPredicateSet name="EVTALLHYPnb_personnes_quam" org.eventb.core.parentSet="/AbonnementMetro/MetroMachine0.bpo|org.eventb.core.poFile#MetroMachine0|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poPredicateSet name="EVTALLHYPnb_personnes_quan" org.eventb.core.parentSet="/AbonnementMetro/MetroMachine0.bpo|org.eventb.core.poFile#MetroMachine0|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="metro_present=TRUE" org.eventb.core.source="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#+|org.eventb.core.guard#'"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTnb_personnes_quao" org.eventb.core.parentSet="/AbonnementMetro/MetroMachine0.bpo|org.eventb.core.poFile#MetroMachine0|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="contenance" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="metro_present'" org.eventb.core.type="BOOL"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPnb_personnes_quao" org.eventb.core.parentSet="/AbonnementMetro/MetroMachine0.bpo|org.eventb.core.poFile#MetroMachine0|org.eventb.core.poPredicateSet#EVTIDENTnb_personnes_quao" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="metro_present=FALSE" org.eventb.core.source="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#,|org.eventb.core.guard#'"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="contenance∈ℕ" org.eventb.core.source="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#,|org.eventb.core.guard#*"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTnb_personnes_quap" org.eventb.core.parentSet="/AbonnementMetro/MetroMachine0.bpo|org.eventb.core.poFile#MetroMachine0|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="metro_present'" org.eventb.core.type="BOOL"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPnb_personnes_quap" org.eventb.core.parentSet="/AbonnementMetro/MetroMachine0.bpo|org.eventb.core.poFile#MetroMachine0|org.eventb.core.poPredicateSet#EVTIDENTnb_personnes_quap" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="metro_present=TRUE" org.eventb.core.source="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.event#-|org.eventb.core.guard#'"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/AbonnementMetro/MetroMachine0.bpo|org.eventb.core.poFile#MetroMachine0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="4">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="metro_present∈BOOL" org.eventb.core.source="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.invariant#."/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="nb_personnes_quai∈ℕ" org.eventb.core.source="/AbonnementMetro/MetroMachine0.bum|org.eventb.core.machineFile#MetroMachine0|org.eventb.core.invariant#2"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

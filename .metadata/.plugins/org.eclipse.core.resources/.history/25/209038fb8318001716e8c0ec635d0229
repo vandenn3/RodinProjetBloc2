@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase;de.prob.units.mchBase" version="3">
+<org.eventb.core.constant de.prob.symbolic.symbolicAttribute="false" de.prob.units.inferredUnitPragmaAttribute="" de.prob.units.unitPragmaAttribute="" name="'" org.eventb.core.identifier="oui"/>
+<org.eventb.core.constant de.prob.symbolic.symbolicAttribute="false" de.prob.units.inferredUnitPragmaAttribute="" de.prob.units.unitPragmaAttribute="" name="(" org.eventb.core.identifier="non"/>
+<org.eventb.core.axiom name=")" org.eventb.core.label="partition(Statuts,{oui},{non})" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.carrierSet name="*" org.eventb.core.identifier="Statuts"/>
+</org.eventb.core.contextFile>

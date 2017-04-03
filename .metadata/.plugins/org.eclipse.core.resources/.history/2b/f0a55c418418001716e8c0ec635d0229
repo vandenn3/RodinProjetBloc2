@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="6">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="4">
+<org.eventb.core.poIdentifier name="Statuts" org.eventb.core.type="ℙ(Statuts)"/>
+<org.eventb.core.poIdentifier name="non" org.eventb.core.type="Statuts"/>
+<org.eventb.core.poIdentifier name="oui" org.eventb.core.type="Statuts"/>
+<org.eventb.core.poPredicate name="Statutt" org.eventb.core.predicate="partition(Statuts,{oui},{non})" org.eventb.core.source="/AbonnementMetro/MetroContext.buc|org.eventb.core.contextFile#MetroContext|org.eventb.core.axiom#)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/AbonnementMetro/MetroMachine1.bpo|org.eventb.core.poFile#MetroMachine1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="5">
+<org.eventb.core.poIdentifier name="metro_present" org.eventb.core.type="Statuts"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTmetro_presenu" org.eventb.core.parentSet="/AbonnementMetro/MetroMachine1.bpo|org.eventb.core.poFile#MetroMachine1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="metro_present'" org.eventb.core.type="Statuts"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPmetro_presenu" org.eventb.core.parentSet="/AbonnementMetro/MetroMachine1.bpo|org.eventb.core.poFile#MetroMachine1|org.eventb.core.poPredicateSet#EVTIDENTmetro_presenu" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poPredicateSet name="EVTALLHYPmetro_presenv" org.eventb.core.parentSet="/AbonnementMetro/MetroMachine1.bpo|org.eventb.core.poFile#MetroMachine1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poPredicateSet name="EVTALLHYPmetro_presenw" org.eventb.core.parentSet="/AbonnementMetro/MetroMachine1.bpo|org.eventb.core.poFile#MetroMachine1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poPredicateSet name="EVTALLHYPmetro_presenx" org.eventb.core.parentSet="/AbonnementMetro/MetroMachine1.bpo|org.eventb.core.poFile#MetroMachine1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/AbonnementMetro/MetroMachine1.bpo|org.eventb.core.poFile#MetroMachine1|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="5">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="metro_present∈Statuts" org.eventb.core.source="/AbonnementMetro/MetroMachine1.bum|org.eventb.core.machineFile#MetroMachine1|org.eventb.core.invariant#."/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

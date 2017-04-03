@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="1" version="2.0">
+<workbenchAdvisor/>
+<window height="739" maximized="true" width="1137" x="309" y="0">
+<fastViewData fastViewLocation="1024">
+<orientation position="512" view="org.eventb.ui.views.RuleDetails"/>
+<orientation position="512" view="org.eventb.ui.views.CacheHypothesis"/>
+<orientation position="512" view="org.eventb.ui.views.SearchHypothesis"/>
+<orientation position="512" view="org.eventb.ui.views.ProofInformation"/>
+<orientation position="512" view="org.eventb.ui.views.ProofSkeleton"/>
+<orientation position="512" view="fr.systerel.explorer.navigator.view"/>
+</fastViewData>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="160" y="38"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="70" y="38"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="70" y="38"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="76" y="38"/>
+<coolItem id="org.eventb.ui.provingBar" itemType="typeToolBarContribution" x="48" y="38"/>
+<coolItem id="addmove.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="undoredo.toolbar" itemType="typeToolBarContribution" x="80" y="38"/>
+<coolItem id="org.eventb.ui.contexteditor.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eventb.ui.machineeditor.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="fr.systerel.editor.editorNewElementWizards" itemType="typeToolBarContribution" x="140" y="38"/>
+<coolItem id="fr.systerel.editor.editorBasicCommands" itemType="typeToolBarContribution" x="80" y="38"/>
+<coolItem id="probtoolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="de.bmotionstudio.gef.editor.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="250" y="38"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eventb.ui.editors.machine" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eventb.ui.editors.ProverUI" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page focus="true" label="Workspace - Event-B">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</editorArea>
+</editors>
+<views>
+<view id="org.eventb.ui.views.RuleDetails" partName="Rule Details"/>
+<view id="org.eventb.ui.symboltable.view" partName="Symbols">
+<viewState/>
+</view>
+<view id="fr.systerel.explorer.statistics" partName="Statistics"/>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
+<view id="org.eventb.ui.views.ProofControl" partName="Proof Control"/>
+<view id="de.prob.ui.OperationView" partName="Events">
+<viewState/>
+</view>
+<view id="org.eventb.ui.views.CacheHypothesis" partName="Cache Hypothesis"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eventb.ui.views.RodinProblemView" partName="Rodin Problems">
+<viewState columnWidth0="253" columnWidth1="78" columnWidth2="153" columnWidth3="478" columnWidth4="0" horizontalPosition="0" verticalPosition="0">
+<columnOrder columnOrderIndex="0"/>
+<columnOrder columnOrderIndex="1"/>
+<columnOrder columnOrderIndex="2"/>
+<columnOrder columnOrderIndex="3"/>
+<columnOrder columnOrderIndex="4"/>
+</viewState>
+</view>
+<view id="org.eventb.ui.views.SearchHypothesis" partName="Search Hypothesis"/>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eventb.ui.views.ProofInformation" partName="Proof Information"/>
+<view id="org.eventb.ui.views.ProofSkeleton" partName="Proof Skeleton"/>
+<view id="fr.systerel.explorer.navigator.view" partName="Event-B Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+</views>
+<perspectives activePart="fr.systerel.explorer.navigator.view" activePerspective="org.eventb.ui.perspective.eventb">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eventb.ide.ui.perspectives.EventBPerspective" id="org.eventb.ui.perspective.eventb" label="Event-B"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<show_view_action id="org.eventb.ui.views.RodinProblemView"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="fr.systerel.explorer.navigator.view"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eventb.ui.symboltable.view"/>
+<show_view_action id="org.rodinp.keyboard.ui.views.KeyboardView"/>
+<new_wizard_action id="org.eventb.ui.wizards.NewProject"/>
+<new_wizard_action id="org.eventb.ui.wizards.NewComponent"/>
+<perspective_action id="org.eventb.ui.perspective.proving"/>
+<perspective_action id="org.eclipse.ui.resourcePerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<view id="fr.systerel.explorer.navigator.view"/>
+<view id="org.eventb.ui.views.RodinProblemView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eventb.ui.symboltable.view"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="fr.systerel.explorer.navigator.view" appearance="2" expanded="2">
+<page content="fr.systerel.explorer.navigator.view" label="Event-B Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@315ba14a" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.2" ratioLeft="202" ratioRight="808" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.7491961" ratioLeft="466" ratioRight="156" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eventb.ui.views.RodinProblemView" appearance="2" expanded="2">
+<page content="org.eventb.ui.views.RodinProblemView" label="Rodin Problems"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.pde.runtime.LogView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@15051a0" ratio="0.69925743" ratioLeft="565" ratioRight="243" relationship="2" relative="bottom">
+<folder activePageID="org.eventb.ui.symboltable.view" appearance="2" expanded="2">
+<page content="org.eventb.ui.symboltable.view" label="Symbols"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.79950494" ratioLeft="646" ratioRight="162" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eventb.ide.ui.perspectives.ProvingPerspective" id="org.eventb.ui.perspective.proving" label="Proving"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<show_view_action id="fr.systerel.explorer.navigator.view"/>
+<show_view_action id="fr.systerel.explorer.statistics"/>
+<show_view_action id="org.eventb.ui.views.ProofTreeUI"/>
+<show_view_action id="org.eventb.ui.views.ProofControl"/>
+<show_view_action id="org.eventb.ui.views.ProofInformation"/>
+<show_view_action id="org.eventb.ui.views.SearchHypothesis"/>
+<show_view_action id="org.eventb.ui.views.CacheHypothesis"/>
+<show_view_action id="org.eventb.ui.views.ProofSkeleton"/>
+<show_view_action id="org.eventb.ui.views.Goal"/>
+<show_view_action id="org.eventb.ui.views.RodinProblemView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eventb.ui.views.RuleDetails"/>
+<show_view_action id="org.eventb.ui.views.TypeEnv"/>
+<show_view_action id="org.eventb.ui.symboltable.view"/>
+<show_view_action id="org.rodinp.keyboard.ui.views.KeyboardView"/>
+<new_wizard_action id="org.eventb.ui.wizards.NewProject"/>
+<new_wizard_action id="org.eventb.ui.wizards.NewComponent"/>
+<perspective_action id="org.eventb.ui.perspective.eventb"/>
+<perspective_action id="org.eclipse.ui.resourcePerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<view id="org.eventb.ui.symboltable.view"/>
+<view id="fr.systerel.explorer.navigator.view"/>
+<fastViews>
+<view id="org.eventb.ui.views.ProofInformation" ratio="0.25"/>
+<view id="org.eventb.ui.views.SearchHypothesis" ratio="0.25"/>
+<view id="org.eventb.ui.views.CacheHypothesis" ratio="0.25"/>
+<view id="org.eventb.ui.views.ProofSkeleton" ratio="0.25"/>
+<view id="org.eventb.ui.views.RuleDetails" ratio="0.25"/>
+</fastViews>
+<fastViewBars>
+<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eventb.ui.views.ProofControl" style="0">
+<fastViews>
+<view id="org.eventb.ui.views.ProofControl" ratio="0.3"/>
+<view id="fr.systerel.explorer.statistics" ratio="0.3"/>
+<view id="org.eventb.ui.views.RodinProblemView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder appearance="2" expanded="2">
+<page content="org.eventb.ui.views.ProofTreeUI" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@256a5df0" ratio="0.24950495" ratioLeft="252" ratioRight="758" relationship="2" relative="left">
+<folder activePageID="fr.systerel.explorer.navigator.view" appearance="2" expanded="2">
+<page content="fr.systerel.explorer.navigator.view" label="Event-B Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@459e120b" ratio="0.74934036" ratioLeft="568" ratioRight="190" relationship="2" relative="org.eclipse.ui.internal.ViewStack@256a5df0">
+<folder activePageID="org.eventb.ui.symboltable.view" appearance="2" expanded="2">
+<page content="org.eventb.ui.symboltable.view" label="Symbols"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@98722ef" ratio="0.59967846" ratioLeft="373" ratioRight="249" relationship="4" relative="org.eclipse.ui.internal.ViewStack@256a5df0">
+<folder appearance="2" expanded="2">
+<page content="org.eventb.ui.views.Goal" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="bottom" ratio="0.39759037" ratioLeft="99" ratioRight="150" relationship="4" relative="org.eclipse.ui.internal.ViewStack@98722ef">
+<folder appearance="2" expanded="0">
+<page content="org.eventb.ui.views.ProofControl" label="LabelNotFound"/>
+<page content="fr.systerel.explorer.statistics" label="LabelNotFound"/>
+<page content="org.eventb.ui.views.RodinProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.pde.runtime.LogView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="205" ratioRight="615" relationship="2" relative="org.eclipse.ui.internal.ViewStack@256a5df0"/>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="de.prob.ui.PerspectiveFactory" id="de.prob.ui.perspective" label="ProB"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<view id="de.prob.ui.OperationView"/>
+<fastViews>
+<view id="fr.systerel.explorer.navigator.view" ratio="0.29836684"/>
+</fastViews>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="de.prob.ui.OperationView" appearance="2" expanded="2">
+<page content="de.prob.ui.OperationView" label="Events"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.3" ratioLeft="303" ratioRight="707" relationship="2" relative="left"/>
+<info folder="true" part="right1" ratio="0.59971714" ratioLeft="424" ratioRight="283" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="de.prob.ui.StateView" label="LabelNotFound"/>
+<page content="de.prob.ui.ltl.CounterExampleView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="right2" ratio="0.59717315" ratioLeft="169" ratioRight="114" relationship="2" relative="right1">
+<folder appearance="2" expanded="2">
+<page content="de.prob.ui.HistoryView" label="LabelNotFound"/>
+<page content="de.prob.ui.EventErrorView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="leftb" ratio="0.5" ratioLeft="308" ratioRight="308" relationship="4" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eventb.ui.views.RodinProblemView" label="LabelNotFound"/>
+<page content="fr.systerel.explorer.navigator.view" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory/>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="fr.systerel.editor.editors.RodinEditor" name="MetroMachine0.bum" tooltip="AbonnementMetro/MetroMachine0.bum">
+<persistable path="/AbonnementMetro/MetroMachine0.bum"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="fr.systerel.editor.editors.RodinEditor" name="MetroContext.buc" tooltip="AbonnementMetro/MetroContext.buc">
+<persistable path="/AbonnementMetro/MetroContext.buc"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eventb.ui.editors.ProverUI" name="MetroMachine1.bps" tooltip="AbonnementMetro/MetroMachine1.bps">
+<persistable path="/AbonnementMetro/MetroMachine1.bps"/>
+</file>
+</mruList>
+</workbench>
